@@ -9,9 +9,9 @@ https://www.france-universite-numerique-mooc.fr/courses/MinesTelecom/04002/Trime
 - Thérémine lumineux (capteur de luminosité + buzzer)
 - Passage à niveau comprenant 1 feu bicolore + barrière
 
-INSTALLATION
+Installation
 ============
-- Installer le logiciel Arduino sur votre ordinateur : http://arduino.cc/en/Main/Software
+- Installez le logiciel Arduino sur votre ordinateur : http://arduino.cc/en/Main/Software
 - Réalisez le montage décrit sur les photos à l'aide de votre carte Arduino
 - Lancez le logiciel Arduino
 - Connectez la carte Arduino à votre ordinateur
