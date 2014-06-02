@@ -27,6 +27,9 @@ le moniteur série lorsque l'appui a été détecté.
 #include <Servo.h>  // Librairie ServoMoteur
 Servo barriere;     // ServoMoteur
 
+#include <LiquidCrystal.h>  // Librairie écran LCD
+
+
 const int vert = 2;      // LED verte
 const int rouge = 3;     // LED rouge
 const int PinBouton = 9; // Bouton
@@ -51,6 +54,8 @@ void loop () {
   EtatBouton = digitalRead (PinBouton); // Lecture de l'état du Bouton
   
   if (EtatBouton == HIGH) { // Bouton appuyé
+    
+    Serial.println("Bouton appuyé");
     
     // Ouverture de la barrière 
     for(pos = 90; pos>=0; pos--) {
