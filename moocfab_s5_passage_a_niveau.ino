@@ -34,6 +34,7 @@ int EtatBouton = 0;      // Etat du bouton
 int pos = 0;             // Position de la barrière = 0°
 
 void setup () {
+  Serial.begin(9600); // initialise la communication avec l'ordinateur
   // Barrière
   barriere.attach(13);
   // Feux bicolores
