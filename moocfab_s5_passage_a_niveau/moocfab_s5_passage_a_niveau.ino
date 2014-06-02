@@ -27,6 +27,9 @@ le moniteur série lorsque l'appui a été détecté.
 #include <Servo.h>  // Librairie ServoMoteur
 Servo barriere;     // ServoMoteur
 
+#include <LiquidCrystal.h>  // Librairie écran LCD
+
+
 const int vert = 2;      // LED verte
 const int rouge = 3;     // LED rouge
 const int PinBouton = 9; // Bouton
