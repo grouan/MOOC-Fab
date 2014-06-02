@@ -8,6 +8,8 @@ https://www.france-universite-numerique-mooc.fr/courses/MinesTelecom/04002/Trime
 - Feux tricolores + passage piétons (bouton poussoir)
 - Thérémine lumineux (capteur de luminosité + buzzer)
 - Passage à niveau comprenant 1 feu bicolore + barrière
+- Passage à niveau comprenant 1 feu bicolore + barrière + écran LCD (compteur)
+- Inkscape : modélisation de la UselessBox Hand
 
 Installation
 ============
